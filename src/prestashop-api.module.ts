@@ -1,5 +1,5 @@
-import { NgModule }      from '@angular/core';
-import { CommonModule }  from '@angular/common';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { HttpModule } from "@angular/http";
 
 // IMPORTS
@@ -7,7 +7,7 @@ import { HttpModule } from "@angular/http";
 const services: any[] = [
     // SERVICES
 ]
- 
+
 @NgModule({
     imports: [
         CommonModule,
