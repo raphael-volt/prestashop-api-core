@@ -13,9 +13,7 @@ const services: any[] = [
         CommonModule,
         HttpModule
     ],
-    providers: [
-        services
-    ],
+    providers: services,
     declarations: [],
     exports: []
 })
