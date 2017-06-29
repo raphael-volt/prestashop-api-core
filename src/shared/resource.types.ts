@@ -1,5 +1,5 @@
 
-import { AbstractResource } from '../../core/abstract-resource'
+import { AbstractResource } from '../core/abstract-resource'
 
 export interface Address extends AbstractResource {
     address1?: string
