@@ -33,7 +33,6 @@ export type AssociationsDescriptor = Association[]
 export class ResourceDescriptor {
 
     constructor(
-        protected readonly _wsresource: string,
         protected readonly _resource: string,
         protected readonly _nodeName: string,
         protected readonly _methods: MethodDecorator,
@@ -43,10 +42,6 @@ export class ResourceDescriptor {
 
     }
     
-    get wsressource(): string {
-        return this._wsresource
-    }
-
     get ressource(): string {
         return this._resource
     }
