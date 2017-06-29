@@ -35,7 +35,7 @@ export class ResourceDescriptor {
     constructor(
         protected readonly _resource: string,
         protected readonly _nodeName: string,
-        protected readonly _methods: MethodDecorator,
+        protected readonly _methods: MethodDescriptor,
         protected readonly _properties: ResourceProperty[],
         protected readonly _associations?: AssociationsDescriptor
     ) {
